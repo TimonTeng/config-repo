@@ -1,0 +1,8 @@
+server:
+  port: 8788
+  
+#eureka server 配置
+eureka-addr1: localhost
+eureka-addr2: localhost
+eureka-port1: 8761
+eureka-port2: 8762
