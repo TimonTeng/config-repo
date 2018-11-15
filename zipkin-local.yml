@@ -1,0 +1,16 @@
+#eureka server 配置
+eureka-addr1: localhost
+eureka-addr2: localhost
+eureka-port1: 8761
+eureka-port2: 8762
+server:
+  port: 8800
+  spring:
+    sleuth:
+     sampler:
+        probability: 1.0
+  zipkin:
+    enabled: true
+    locator:
+      discovery:
+            enabled: true
