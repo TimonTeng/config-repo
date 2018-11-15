@@ -1,9 +1,5 @@
-#spring:
-#  application:
-#    name: engine
 server:
   port: 8866
-
 eureka:
   instance:
     instance-id: ${spring.application.name}:${spring.application.instance_id:${server.port}}
@@ -13,4 +9,4 @@ eureka:
     healthcheck:
       enabled: true
     service-url:
-      defaultZone: http://localhost:8761/eureka,http://localhost:8762/eureka
+      defaultZone: http://${eureka-addr1}:${eureka-port1}/eureka,http://${eureka-addr2}:${eureka-port2}/eureka
