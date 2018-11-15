@@ -5,5 +5,5 @@ eureka-port1: 8761
 eureka-port2: 8762
 
 server:
-    port: 8855
+    port: 8861
 
