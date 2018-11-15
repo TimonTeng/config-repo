@@ -6,6 +6,3 @@ eureka-port2: 8762
 
 server:
   port: 8866
-spring:
-  zipkin:
-    baseUrl: http://localhost:8800
