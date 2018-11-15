@@ -1,5 +1,12 @@
-#eureka server 配置
-eureka-addr1: localhost
-eureka-addr2: localhost
-eureka-port1: 8761
-eureka-port2: 8762
+eureka:
+  instance:
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${server.port}}
+    prefer-ip-address: true
+    status-page-url-path: /status
+  client:
+    healthcheck:
+      enabled: true
+    service-url:
+      defaultZone: http://${eureka-addr1}:${eureka-port1}/eureka,http://${eureka-addr2}:${eureka-port2}/eureka
+
+filename: application.yml

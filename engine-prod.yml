@@ -1,14 +1,8 @@
 server:
   port: 8866
 
-eureka:
-  instance:
-    instance-id: ${spring.application.name}:${spring.application.instance_id:${server.port}}
-    prefer-ip-address: true
-    hostname: 172.16.27.208
-    status-page-url-path: /status
-  client:
-    registerWithEureka: false
-    fetchRegistry: false
-    serviceUrl:
-      defaultZone: http://${eureka-addr1}:${eureka-port1}/eureka/,http://${eureka-addr2}:${eureka-port2}/eureka/
+#eureka server 配置
+eureka-addr1: localhost
+eureka-addr2: localhost
+eureka-port1: 8761
+eureka-port2: 8762
