@@ -5,8 +5,8 @@ eureka-port1: 8761
 eureka-port2: 8762
 server:
   port: 8800
-  spring:
-    sleuth:
+spring:
+  sleuth:
      sampler:
         probability: 1.0
   zipkin:
