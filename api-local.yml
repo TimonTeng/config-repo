@@ -3,6 +3,7 @@ eureka-addr1: localhost
 eureka-addr2: localhost
 eureka-port1: 8761
 eureka-port2: 8762
+
 server:
     port: 8855
 
