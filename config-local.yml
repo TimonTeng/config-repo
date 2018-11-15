@@ -1,5 +1,5 @@
-server:
-  port: 8788
+#server:
+#  port: 8788
 
 #eureka server 配置
 eureka-addr1: localhost
