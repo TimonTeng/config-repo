@@ -8,5 +8,3 @@ eureka:
       enabled: true
     service-url:
       defaultZone: http://${eureka-addr1}:${eureka-port1}/eureka,http://${eureka-addr2}:${eureka-port2}/eureka
-
-filename: application.yml
