@@ -1,6 +1,6 @@
-spring:
-  application:
-    name: engine
+#spring:
+#  application:
+#    name: engine
 server:
   port: 8866
 eureka:
