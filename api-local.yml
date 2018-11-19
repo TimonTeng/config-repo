@@ -6,3 +6,5 @@ eureka-port2: 8762
 
 server:
     port: 8855
+
+api-url: http://baidu.com
