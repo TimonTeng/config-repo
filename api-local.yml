@@ -7,4 +7,4 @@ eureka-port2: 8762
 server:
     port: 8855
 
-api-url: http://dengpenghai.com
+api-url: http://www.dengpenghai.com
